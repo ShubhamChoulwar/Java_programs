@@ -1,5 +1,5 @@
 package methodOverriding_1;
-/**
+/*
  * this class is parent class for CarEnquiry and CarBooking
  */
 
@@ -13,7 +13,7 @@ public class CarList {
 
         CarParams car1 = new CarParams(1,"MS-Swift","VXI","white","8L50T",2024,"normal","Petrol");
         CarParams car2 = new CarParams(2,"MS-Swift","VDI","white","8L90T",2024,"normal","Diesel");
-        ArrayList<CarParams> carList = new ArrayList<CarParams>();
+        ArrayList<CarParams> carList = new ArrayList<>();
         carList.add(car1);
         carList.add(car2);
 
