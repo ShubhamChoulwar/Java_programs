@@ -4,7 +4,7 @@ package Immutable;
  * Once an instance is created, its state cannot be changed.
  */
 
-public class ImmutableClass {
+public final class ImmutableClass {
     private final String name;
     private final int age;
 

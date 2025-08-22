@@ -27,7 +27,7 @@ public class FailFastOperation {
             String element = iterator.next();
             System.out.println(element);
             // Uncommenting the next line will cause a ConcurrentModificationException
-            list.remove(element); // This will cause fail-fast behavior
+            list.remove(element);
         }
 
     }
