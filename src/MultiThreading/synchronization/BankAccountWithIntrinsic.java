@@ -9,7 +9,7 @@ public class BankAccountWithIntrinsic {
 
     private int balance = 100;
 
-    public synchronized void  withdraw(int amount) throws InterruptedException {
+    public synchronized void withdraw(int amount) throws InterruptedException {
         System.out.println(Thread.currentThread().getName() + "Attempting to withdraw: " + amount);
         if(balance >=amount){
             System.out.println(Thread.currentThread().getName() + " Proceeding with withdrawl");

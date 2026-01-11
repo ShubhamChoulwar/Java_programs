@@ -18,11 +18,11 @@ public class Main {
         System.out.println("before : " + address);
         System.out.println("before : " + emp);
 
-        /*Address address1 = new Address("Pune");
+        Address address1 = new Address("Pune");
         Employee emp1 = new Employee(2,"choulwar", address1 );
 
         System.out.println("After : " + address1);
-        System.out.println("After : " + emp1);*/
+        System.out.println("After : " + emp1);
 
     }
 }
