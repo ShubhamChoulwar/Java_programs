@@ -24,6 +24,7 @@ public class CompareStudents {
         lst.add(new CompareStudents(2, "Shubham"));
         lst.add(new CompareStudents(1,"Apple"));
 
+
         Collections.sort(lst,new CompareByComparator());
         System.out.println("Sorted result with comparator/custom sorting");
         for(CompareStudents result : lst){

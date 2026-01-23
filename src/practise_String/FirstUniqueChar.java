@@ -19,7 +19,8 @@ public class FirstUniqueChar {
         }
     }
     public static void main(String[] args) {
-        String name = "swiss";
+        String name = "xrfhxR";
         FirstUniqueChar.findUniqueChar(name);
     }
 }
+

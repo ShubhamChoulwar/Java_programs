@@ -17,7 +17,7 @@ public class RemoveDupFrmList {
 
         List<Integer> lst1 = Arrays.asList(1,2,2,3,4,4);
         Set<Integer> set1 = new HashSet<>();
-        Set<Integer> set2 = lst1.stream().filter(num -> !set1.add(num)).collect(Collectors.toSet());
+        Set<Integer> set2 = lst1.stream().filter(num -> !set1.add(num)).collect(Collectors.toSet()); //find the duplicate in list
         System.out.println(set2);
 
     }

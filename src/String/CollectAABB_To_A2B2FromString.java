@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/*public class CollectAABB_To_A2B2FromString{
+public class CollectAABB_To_A2B2FromString{
 
     public static void main(String[] args){
         String str = "aabcdd";
@@ -23,10 +23,8 @@ import java.util.Map;
                 hm.put(c,1);
             }
         }
-        System.out.println(hm);
-        for(Map.Entry(Character,Integer) : )
 
-
-
+        System.out.println(strbuilder.toString());
+       }
     }
-}*/
+
