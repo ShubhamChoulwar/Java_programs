@@ -1,0 +1,10 @@
+while creating object, when object have many attributes there are many problem exists:
+1.we have to pass many arguments to create object
+2.some parameters might be optional
+3.factory class takes all responsibility for creating object. if object is heavy than all complexity is the part
+of factory class
+
+if parameters are less that should be fine we can pass parameters easily but if we have parameters like 25 or 30
+and some of them are option then what we will do we will override constructors with customization of parameters and
+that will be difficult so to remove this situation we can use builder pattern.
+

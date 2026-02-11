@@ -3,7 +3,7 @@ package AbstractClass;
 public class Employee extends Salary implements Loc{
     /**
      * here both abstract method we have to override from Salary absrtact class
-     * Location and Salary both absrtact class can notbe extends so we have to create interface
+     * Location and Salary both absrtact class can not be extends so we have to create interface
      */
     @Override
     void salary(int number) {

@@ -24,4 +24,26 @@ public class ProducerConsumer {
         notify();
     }
 
+    public static void main(String[] args) throws InterruptedException {
+        ProducerConsumer producerConsumer = new ProducerConsumer();
+        Runnable task1 = () -> {
+            try {
+                producerConsumer.producer(4);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        };
+
+        Runnable task2 = () -> {
+            try {
+                producerConsumer.consumer();
+            } catch (InterruptedException e) {}
+        };
+
+        Thread t1 = new Thread(task1);
+        Thread t2 = new Thread(task2);
+        t1.start();
+        t2.start();
+    }
+
 }
